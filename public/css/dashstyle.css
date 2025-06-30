@@ -1,0 +1,67 @@
+.container {
+        display: flex;
+        height: 100vh;
+        background-color: #f0e8e8;
+        margin: auto;
+        flex-direction: column;
+        width: 80vw;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: 20px;
+        box-sizing: border-box;
+        box-shadow: inset;
+        border-radius: 10px;
+        gap: 20px;
+      }
+      .container h1 {
+        border-bottom: 5px groove rgb(203, 201, 201);
+        width: 90%;
+        text-align: center;
+      }
+      .content {
+        height: auto;
+        width: 90%;
+        background-color: white;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 20px;
+        box-sizing: border-box;
+        box-shadow: inset;
+        border-radius: 10px;
+      }
+      .content h2 span {
+        color: rgb(209, 34, 34);
+      }
+      .content a {
+        text-decoration: none;
+        text-align: center;
+        padding: 5px;
+        margin: 20px;
+        font-size: large;
+        background-color: black;
+        color: white;
+        border-radius: 5px;
+        width: 100px;
+      }
+
+      .posts {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        background-color: #dfcbcb;
+        height: auto;
+        width: 90%;
+        gap: 10px;
+        box-sizing: border-box;
+        box-shadow: inset;
+        border-radius: 10px;
+        padding: 20px;
+      }
+      .post-card {
+        background-color: #fff;
+        padding: 20px;
+        box-sizing: border-box;
+        box-shadow: inset;
+        border-radius: 10px;
+      }
+      

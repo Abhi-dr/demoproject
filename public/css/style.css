@@ -1,0 +1,28 @@
+ .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f6f3f3;
+}
+.formFld {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: #ffffff;
+    padding: 100px;
+    border: 1px solid rgb(206, 201, 201);
+    border-radius: 5px;
+}
+input {
+    padding: 10px;
+    font-size: large;
+    width: 300px;
+    border: none;
+    outline: none;
+    border-bottom: 1px groove grey;
+}
+button {
+    padding: 10px;
+    font-size: large;
+}

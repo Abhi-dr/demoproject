@@ -1,0 +1,20 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title Document
+    link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css")
+    link(rel="stylesheet", href="/assets/css/style.css")
+  body
+    .container
+      form.formFld(action="/admin/login", method="post")
+        h1.title Login Form
+        i.fas.fa-envelope
+          input#emailFld(type="email", placeholder="somenone@mail.com", name="email")
+          br
+        i.fas.fa-lock
+          input#pwdFld(type="password", placeholder="Password", name="password")
+          br
+        button(type="submit") Login
+    script(src="/assets/js/script.js")
